@@ -78,6 +78,10 @@ app.get('/discord', async (req, res) => {
     })
     res.send()
 })
+
+app.post('/banco', (req, res) => {
+    
+})
 // token não dura pra sempre
 
 // listen pq é a porta que quero "escutar" 3000 = porta
